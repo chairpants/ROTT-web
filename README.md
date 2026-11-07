@@ -4,6 +4,8 @@ Rise of the Triad in a browser, reading the player's own game files at run
 time. Pick `HUNTBGIN.WAD` and `HUNTBGIN.RTL` from disk, or give a link to
 them; nothing about a level is baked into this site.
 
+**▶ [Play it in your browser](https://chairpants.github.io/ROTT-web/)** (bring your own game files)
+
     python -m http.server 8000      # any static server will do
     node test/decode.test.mjs       # hold the decoders to the reference
     node tools/bundle.mjs           # rott.html: one file, opens from disk
